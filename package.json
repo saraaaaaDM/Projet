@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "save-dev": "^0.0.1-security",
+    "three": "^0.183.2",
+    "vite": "^8.0.3"
+  }
+}
