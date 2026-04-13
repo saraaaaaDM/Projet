@@ -1,6 +1,3 @@
-// ============================================================
-//  SCENE SETUP
-// ============================================================
 const canvas = document.getElementById('scene');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -160,9 +157,6 @@ const starMat = new THREE.PointsMaterial({ color:0xffffff, size:0.38, transparen
 const stars = new THREE.Points(starGeo, starMat);
 scene.add(stars);
 
-// ============================================================
-//  SUN & MOON
-// ============================================================
 const sunMesh = new THREE.Mesh(
   new THREE.SphereGeometry(1.8,12,10),
   new THREE.MeshBasicMaterial({ color:0xffee88 })
